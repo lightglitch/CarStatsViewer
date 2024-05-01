@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.dataProcessor
+package net.lightglitch.carStatsViewer.dataProcessor
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -6,21 +6,21 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.core.graphics.drawable.toBitmap
-import com.ixam97.carStatsViewer.AutoStartReceiver
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.Defines
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.carPropertiesClient.CarProperties
-import com.ixam97.carStatsViewer.carPropertiesClient.CarPropertiesData
-import com.ixam97.carStatsViewer.utils.TimeTracker
-import com.ixam97.carStatsViewer.database.tripData.*
-import com.ixam97.carStatsViewer.emulatorMode
-import com.ixam97.carStatsViewer.emulatorPowerSign
-import com.ixam97.carStatsViewer.liveDataApi.http.HttpLiveData
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotLineMarkerType
-import com.ixam97.carStatsViewer.utils.InAppLogger
-import com.ixam97.carStatsViewer.utils.Ticker
-// import com.ixam97.carStatsViewer.utils.TimestampSynchronizer
+import net.lightglitch.carStatsViewer.AutoStartReceiver
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.Defines
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.carPropertiesClient.CarProperties
+import net.lightglitch.carStatsViewer.carPropertiesClient.CarPropertiesData
+import net.lightglitch.carStatsViewer.utils.TimeTracker
+import net.lightglitch.carStatsViewer.database.tripData.*
+import net.lightglitch.carStatsViewer.emulatorMode
+import net.lightglitch.carStatsViewer.emulatorPowerSign
+import net.lightglitch.carStatsViewer.liveDataApi.http.HttpLiveData
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotLineMarkerType
+import net.lightglitch.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.utils.Ticker
+// import net.lightglitch.carStatsViewer.utils.TimestampSynchronizer
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow

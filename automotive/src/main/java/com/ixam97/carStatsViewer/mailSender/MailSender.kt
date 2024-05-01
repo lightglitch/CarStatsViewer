@@ -1,10 +1,10 @@
-package com.ixam97.carStatsViewer.mailSender
+package net.lightglitch.carStatsViewer.mailSender
 
 import android.graphics.Bitmap
-import com.ixam97.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.CarStatsViewer
 import kotlin.jvm.Synchronized
 import kotlin.Throws
-import com.ixam97.carStatsViewer.mailSender.JSSEProvider
+import net.lightglitch.carStatsViewer.mailSender.JSSEProvider
 import jakarta.activation.DataHandler
 import jakarta.activation.DataSource
 import jakarta.activation.FileDataSource

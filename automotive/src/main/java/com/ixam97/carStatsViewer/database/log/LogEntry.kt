@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.database.log
+package net.lightglitch.carStatsViewer.database.log
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

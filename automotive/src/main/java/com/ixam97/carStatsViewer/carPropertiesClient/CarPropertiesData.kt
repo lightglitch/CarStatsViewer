@@ -1,8 +1,8 @@
-package com.ixam97.carStatsViewer.carPropertiesClient
+package net.lightglitch.carStatsViewer.carPropertiesClient
 
 import android.car.VehiclePropertyIds
 import android.car.hardware.CarPropertyValue
-import com.ixam97.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.utils.InAppLogger
 
 class CarPropertiesData {
     /** Current speed in m/s */

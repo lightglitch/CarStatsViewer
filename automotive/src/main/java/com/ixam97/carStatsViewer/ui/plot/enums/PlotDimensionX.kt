@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.plot.enums
+package net.lightglitch.carStatsViewer.ui.plot.enums
 
 enum class PlotDimensionX {
     INDEX, DISTANCE, TIME, STATE_OF_CHARGE;

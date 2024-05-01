@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
 import kotlin.math.roundToLong
 

@@ -1,8 +1,8 @@
-package com.ixam97.carStatsViewer.appPreferences
+package net.lightglitch.carStatsViewer.appPreferences
 
 import android.content.SharedPreferences
-import com.ixam97.carStatsViewer.utils.DistanceUnitEnum
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotDimensionX
+import net.lightglitch.carStatsViewer.utils.DistanceUnitEnum
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotDimensionX
 
 class AppPreference<T>(
     private val key: String,

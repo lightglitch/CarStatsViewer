@@ -1,17 +1,17 @@
-package com.ixam97.carStatsViewer.adapters
+package net.lightglitch.carStatsViewer.adapters
 
 import android.app.ActionBar.LayoutParams
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.ui.activities.HistoryActivity
-import com.ixam97.carStatsViewer.database.tripData.DrivingSession
-import com.ixam97.carStatsViewer.database.tripData.TripType
-import com.ixam97.carStatsViewer.ui.views.TripHistoryRowWidget
-import com.ixam97.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.ui.activities.HistoryActivity
+import net.lightglitch.carStatsViewer.database.tripData.DrivingSession
+import net.lightglitch.carStatsViewer.database.tripData.TripType
+import net.lightglitch.carStatsViewer.ui.views.TripHistoryRowWidget
+import net.lightglitch.carStatsViewer.utils.InAppLogger
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

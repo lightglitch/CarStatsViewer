@@ -1,9 +1,9 @@
-package com.ixam97.carStatsViewer.ui.plot.objects
+package net.lightglitch.carStatsViewer.ui.plot.objects
 
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotDimensionSmoothingType
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotHighlightMethod
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotLineLabelFormat
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotSessionGapRendering
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotDimensionSmoothingType
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotHighlightMethod
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotLineLabelFormat
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotSessionGapRendering
 
 class PlotLineConfiguration(
     internal val Range: PlotRange,

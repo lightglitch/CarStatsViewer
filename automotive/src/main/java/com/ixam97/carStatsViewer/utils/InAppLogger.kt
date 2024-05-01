@@ -1,16 +1,16 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
 import android.util.Log
 import androidx.room.Room
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.ixam97.carStatsViewer.BuildConfig
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.appPreferences.AppPreference
-import com.ixam97.carStatsViewer.appPreferences.AppPreferences
-import com.ixam97.carStatsViewer.database.log.LogDatabase
-import com.ixam97.carStatsViewer.database.log.LogEntry
+import net.lightglitch.carStatsViewer.BuildConfig
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.appPreferences.AppPreference
+import net.lightglitch.carStatsViewer.appPreferences.AppPreferences
+import net.lightglitch.carStatsViewer.database.log.LogDatabase
+import net.lightglitch.carStatsViewer.database.log.LogEntry
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

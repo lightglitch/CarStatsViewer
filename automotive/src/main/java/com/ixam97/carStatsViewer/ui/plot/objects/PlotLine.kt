@@ -1,10 +1,10 @@
-package com.ixam97.carStatsViewer.ui.plot.objects
+package net.lightglitch.carStatsViewer.ui.plot.objects
 
 import android.util.Log
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotDimensionX
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotDimensionY
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotHighlightMethod
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotLineMarkerType
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotDimensionX
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotDimensionY
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotHighlightMethod
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotLineMarkerType
 import java.util.concurrent.ConcurrentHashMap
 import kotlin.math.absoluteValue
 

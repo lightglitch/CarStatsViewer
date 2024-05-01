@@ -1,10 +1,10 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.view.children
-import com.ixam97.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.CarStatsViewer
 
 fun applyTypeface(view: View?) {
     if (view == null) return

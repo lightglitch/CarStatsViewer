@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
 import android.app.Activity
 import android.content.Context
@@ -17,9 +17,9 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import com.airbnb.paris.utils.setPaddingHorizontal
 import com.airbnb.paris.utils.setPaddingVertical
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.ui.views.SnackbarWidget
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.ui.views.SnackbarWidget
 import kotlinx.coroutines.launch
 import kotlin.math.roundToInt
 

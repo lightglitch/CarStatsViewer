@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.views
+package net.lightglitch.carStatsViewer.ui.views
 
 import android.content.Context
 import android.graphics.Color
@@ -10,8 +10,8 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.children
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
 import kotlin.math.roundToInt
 
 class MenuRowWidget @JvmOverloads constructor(

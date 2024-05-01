@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
 import android.content.Context
 import android.util.TypedValue

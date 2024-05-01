@@ -1,6 +1,6 @@
-package com.ixam97.carStatsViewer.dataProcessor
+package net.lightglitch.carStatsViewer.dataProcessor
 
-import com.ixam97.carStatsViewer.utils.DistanceUnitEnum
+import net.lightglitch.carStatsViewer.utils.DistanceUnitEnum
 
 data class StaticVehicleData(
     val batteryCapacity: Float? = null,

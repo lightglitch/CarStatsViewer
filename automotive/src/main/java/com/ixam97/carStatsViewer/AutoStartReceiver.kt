@@ -1,13 +1,13 @@
-package com.ixam97.carStatsViewer
+package net.lightglitch.carStatsViewer
 
 import android.app.Notification
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.ixam97.carStatsViewer.ui.activities.PermissionsActivity
-import com.ixam97.carStatsViewer.dataCollector.DataCollector
-import com.ixam97.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.ui.activities.PermissionsActivity
+import net.lightglitch.carStatsViewer.dataCollector.DataCollector
+import net.lightglitch.carStatsViewer.utils.InAppLogger
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

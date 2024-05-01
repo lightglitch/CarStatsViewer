@@ -1,6 +1,6 @@
-package com.ixam97.carStatsViewer.database.tripData
+package net.lightglitch.carStatsViewer.database.tripData
 
-import com.ixam97.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.utils.InAppLogger
 
 class LocalTripDataSource(
     private val tripDao: TripDao

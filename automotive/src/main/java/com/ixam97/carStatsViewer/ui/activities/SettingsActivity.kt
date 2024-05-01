@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.activities
+package net.lightglitch.carStatsViewer.ui.activities
 
 import android.content.*
 import android.os.Bundle
@@ -7,11 +7,11 @@ import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.ixam97.carStatsViewer.*
-import com.ixam97.carStatsViewer.appPreferences.AppPreference
-import com.ixam97.carStatsViewer.utils.InAppLogger
-import com.ixam97.carStatsViewer.utils.applyTypeface
-import com.ixam97.carStatsViewer.utils.setContentViewAndTheme
+import net.lightglitch.carStatsViewer.*
+import net.lightglitch.carStatsViewer.appPreferences.AppPreference
+import net.lightglitch.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.utils.applyTypeface
+import net.lightglitch.carStatsViewer.utils.setContentViewAndTheme
 import kotlinx.android.synthetic.main.activity_settings.*
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

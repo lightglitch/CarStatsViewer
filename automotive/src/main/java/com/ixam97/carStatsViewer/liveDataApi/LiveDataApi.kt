@@ -1,10 +1,10 @@
-package com.ixam97.carStatsViewer.liveDataApi
+package net.lightglitch.carStatsViewer.liveDataApi
 
 import android.content.Context
 import android.os.Handler
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.dataProcessor.RealTimeData
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.dataProcessor.RealTimeData
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow

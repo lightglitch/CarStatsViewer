@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.views
+package net.lightglitch.carStatsViewer.ui.views
 
 import android.content.Context
 import android.graphics.PorterDuff
@@ -9,12 +9,12 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.database.tripData.DrivingSession
-import com.ixam97.carStatsViewer.database.tripData.TripType
-import com.ixam97.carStatsViewer.utils.StringFormatters
-import com.ixam97.carStatsViewer.utils.applyTypeface
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.database.tripData.DrivingSession
+import net.lightglitch.carStatsViewer.database.tripData.TripType
+import net.lightglitch.carStatsViewer.utils.StringFormatters
+import net.lightglitch.carStatsViewer.utils.applyTypeface
 import java.util.*
 
 class TripHistoryRowWidget(

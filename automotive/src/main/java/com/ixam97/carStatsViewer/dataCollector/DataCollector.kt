@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.dataCollector
+package net.lightglitch.carStatsViewer.dataCollector
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -10,19 +10,19 @@ import android.os.IBinder
 import android.widget.Toast
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.ui.activities.MainActivity
-import com.ixam97.carStatsViewer.carPropertiesClient.CarProperties
-import com.ixam97.carStatsViewer.carPropertiesClient.CarPropertiesClient
-import com.ixam97.carStatsViewer.dataProcessor.DataProcessor
-import com.ixam97.carStatsViewer.emulatorMode
-import com.ixam97.carStatsViewer.locationClient.DefaultLocationClient
-import com.ixam97.carStatsViewer.locationClient.LocationClient
-import com.ixam97.carStatsViewer.utils.DistanceUnitEnum
-import com.ixam97.carStatsViewer.utils.InAppLogger
-import com.ixam97.carStatsViewer.utils.StringFormatters
-import com.ixam97.carStatsViewer.utils.WatchdogState
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.ui.activities.MainActivity
+import net.lightglitch.carStatsViewer.carPropertiesClient.CarProperties
+import net.lightglitch.carStatsViewer.carPropertiesClient.CarPropertiesClient
+import net.lightglitch.carStatsViewer.dataProcessor.DataProcessor
+import net.lightglitch.carStatsViewer.emulatorMode
+import net.lightglitch.carStatsViewer.locationClient.DefaultLocationClient
+import net.lightglitch.carStatsViewer.locationClient.LocationClient
+import net.lightglitch.carStatsViewer.utils.DistanceUnitEnum
+import net.lightglitch.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.utils.StringFormatters
+import net.lightglitch.carStatsViewer.utils.WatchdogState
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 

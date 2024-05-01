@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.views
+package net.lightglitch.carStatsViewer.ui.views
 
 import android.content.Context
 import android.graphics.*
@@ -14,13 +14,13 @@ import android.view.ScaleGestureDetector.SimpleOnScaleGestureListener
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.getColor
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.appPreferences.AppPreferences
-import com.ixam97.carStatsViewer.ui.plot.enums.*
-import com.ixam97.carStatsViewer.ui.plot.graphics.PlotLinePaint
-import com.ixam97.carStatsViewer.ui.plot.graphics.PlotMarkerPaint
-import com.ixam97.carStatsViewer.ui.plot.graphics.PlotPaint
-import com.ixam97.carStatsViewer.ui.plot.objects.*
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.appPreferences.AppPreferences
+import net.lightglitch.carStatsViewer.ui.plot.enums.*
+import net.lightglitch.carStatsViewer.ui.plot.graphics.PlotLinePaint
+import net.lightglitch.carStatsViewer.ui.plot.graphics.PlotMarkerPaint
+import net.lightglitch.carStatsViewer.ui.plot.graphics.PlotPaint
+import net.lightglitch.carStatsViewer.ui.plot.objects.*
 import java.util.concurrent.TimeUnit
 import kotlin.math.absoluteValue
 import kotlin.math.roundToInt

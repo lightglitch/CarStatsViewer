@@ -1,7 +1,7 @@
-package com.ixam97.carStatsViewer.liveDataApi.http
+package net.lightglitch.carStatsViewer.liveDataApi.http
 
-import com.ixam97.carStatsViewer.database.tripData.ChargingSession
-import com.ixam97.carStatsViewer.database.tripData.DrivingPoint
+import net.lightglitch.carStatsViewer.database.tripData.ChargingSession
+import net.lightglitch.carStatsViewer.database.tripData.DrivingPoint
 
 data class HttpDataSet(
     val apiVersion: String = "2.1",

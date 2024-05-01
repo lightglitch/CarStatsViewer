@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
 import java.lang.annotation.Retention
 import java.lang.annotation.RetentionPolicy

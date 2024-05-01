@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.views
+package net.lightglitch.carStatsViewer.ui.views
 
 import android.animation.ValueAnimator
 import android.app.Activity
@@ -19,9 +19,9 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.utils.InAppLogger
-import com.ixam97.carStatsViewer.utils.applyTypeface
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.utils.applyTypeface
 import kotlinx.android.synthetic.main.widget_snackbar.view.*
 import kotlin.math.roundToInt
 

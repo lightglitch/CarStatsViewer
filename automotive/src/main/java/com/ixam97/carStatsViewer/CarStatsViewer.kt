@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer
+package net.lightglitch.carStatsViewer
 
 import android.app.*
 import android.content.Context
@@ -12,19 +12,19 @@ import android.widget.TextView
 import androidx.room.Room
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.ixam97.carStatsViewer.appPreferences.AppPreferences
-import com.ixam97.carStatsViewer.dataProcessor.DataProcessor
-import com.ixam97.carStatsViewer.database.log.LogDao
-import com.ixam97.carStatsViewer.database.log.LogDatabase
-import com.ixam97.carStatsViewer.database.tripData.*
-import com.ixam97.carStatsViewer.liveDataApi.LiveDataApi
-import com.ixam97.carStatsViewer.liveDataApi.abrpLiveData.AbrpLiveData
-import com.ixam97.carStatsViewer.liveDataApi.http.HttpLiveData
-import com.ixam97.carStatsViewer.ui.views.MultiButtonWidget
-import com.ixam97.carStatsViewer.utils.InAppLogger
-import com.ixam97.carStatsViewer.utils.ScreenshotButton
-import com.ixam97.carStatsViewer.utils.Watchdog
-import com.ixam97.carStatsViewer.utils.applyTypeface
+import net.lightglitch.carStatsViewer.appPreferences.AppPreferences
+import net.lightglitch.carStatsViewer.dataProcessor.DataProcessor
+import net.lightglitch.carStatsViewer.database.log.LogDao
+import net.lightglitch.carStatsViewer.database.log.LogDatabase
+import net.lightglitch.carStatsViewer.database.tripData.*
+import net.lightglitch.carStatsViewer.liveDataApi.LiveDataApi
+import net.lightglitch.carStatsViewer.liveDataApi.abrpLiveData.AbrpLiveData
+import net.lightglitch.carStatsViewer.liveDataApi.http.HttpLiveData
+import net.lightglitch.carStatsViewer.ui.views.MultiButtonWidget
+import net.lightglitch.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.utils.ScreenshotButton
+import net.lightglitch.carStatsViewer.utils.Watchdog
+import net.lightglitch.carStatsViewer.utils.applyTypeface
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -80,7 +80,7 @@ class CarStatsViewer : Application() {
         fun setupRestartAlarm(context: Context, reason: String, delay: Long, cancel: Boolean = false, extendedLogging: Boolean = false) {
             val serviceIntent = Intent(context, AutoStartReceiver::class.java)
             val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
-            serviceIntent.action = "com.ixam97.carStatsViewer.RestartAction"
+            serviceIntent.action = "net.lightglitch.carStatsViewer.RestartAction"
             serviceIntent.putExtra("reason", reason)
             val pendingIntent = PendingIntent.getBroadcast(
                 context,

@@ -1,7 +1,7 @@
-package com.ixam97.carStatsViewer.ui.plot.objects
+package net.lightglitch.carStatsViewer.ui.plot.objects
 
-import com.ixam97.carStatsViewer.utils.DistanceUnitEnum
-import com.ixam97.carStatsViewer.ui.plot.enums.*
+import net.lightglitch.carStatsViewer.utils.DistanceUnitEnum
+import net.lightglitch.carStatsViewer.ui.plot.enums.*
 
 object PlotGlobalConfiguration {
     val DataVersion : Int? = 20230206

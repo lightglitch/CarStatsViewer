@@ -20,12 +20,12 @@ android {
     productFlavors {
         stable {
             dimension "version"
-            applicationId "com.ixam97.carStatsViewer"
+            applicationId "net.lightglitch.carStatsViewer"
         }
 
         dev {
             dimension "version"
-            applicationId "com.ixam97.carStatsViewer_dev"
+            applicationId "net.lightglitch.carStatsViewer_dev"
         }
     }
 
@@ -62,7 +62,7 @@ android {
 
     // android.car exists since Android 10 (API level 29) Revision 5.
     useLibrary 'android.car'
-    namespace 'com.ixam97.carStatsViewer'
+    namespace 'net.lightglitch.carStatsViewer'
 }
 
 aboutLibraries {

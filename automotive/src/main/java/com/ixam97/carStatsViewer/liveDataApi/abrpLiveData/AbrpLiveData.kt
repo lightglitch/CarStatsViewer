@@ -1,18 +1,18 @@
-package com.ixam97.carStatsViewer.liveDataApi.abrpLiveData
+package net.lightglitch.carStatsViewer.liveDataApi.abrpLiveData
 
 import android.app.AlertDialog
 import android.content.Context
 import android.view.LayoutInflater
 import android.widget.EditText
 import android.widget.Switch
-import com.ixam97.carStatsViewer.liveDataApi.LiveDataApi
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.utils.InAppLogger
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.appPreferences.AppPreferences
-import com.ixam97.carStatsViewer.dataProcessor.DrivingState
-import com.ixam97.carStatsViewer.dataProcessor.RealTimeData
-import com.ixam97.carStatsViewer.ui.views.FixedSwitchWidget
+import net.lightglitch.carStatsViewer.liveDataApi.LiveDataApi
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.appPreferences.AppPreferences
+import net.lightglitch.carStatsViewer.dataProcessor.DrivingState
+import net.lightglitch.carStatsViewer.dataProcessor.RealTimeData
+import net.lightglitch.carStatsViewer.ui.views.FixedSwitchWidget
 import org.json.JSONObject
 import java.io.DataOutputStream
 import java.net.HttpURLConnection

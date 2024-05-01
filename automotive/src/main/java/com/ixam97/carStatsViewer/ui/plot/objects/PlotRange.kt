@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.plot.objects
+package net.lightglitch.carStatsViewer.ui.plot.objects
 
 class PlotRange(
     val minNegative: Float? = null,

@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.plot.enums
+package net.lightglitch.carStatsViewer.ui.plot.enums
 
 enum class PlotLineMarkerType(val int: Int) {
     BEGIN_SESSION(1), END_SESSION(2), SINGLE_SESSION(3);

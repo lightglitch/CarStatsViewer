@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.locationClient
+package net.lightglitch.carStatsViewer.locationClient
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,9 +6,9 @@ import android.location.Location
 import android.location.LocationManager
 // import com.google.android.gms.location.*
 import com.google.android.gms.tasks.CancellationTokenSource
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.emulatorMode
-import com.ixam97.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.emulatorMode
+import net.lightglitch.carStatsViewer.utils.InAppLogger
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

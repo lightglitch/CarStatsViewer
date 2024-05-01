@@ -1,7 +1,7 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
 import android.text.format.DateFormat
-import com.ixam97.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.CarStatsViewer
 import java.util.*
 import java.util.concurrent.TimeUnit
 

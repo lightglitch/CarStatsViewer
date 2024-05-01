@@ -1,6 +1,6 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
-import com.ixam97.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.CarStatsViewer
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*

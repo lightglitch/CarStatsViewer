@@ -1,12 +1,12 @@
-package com.ixam97.carStatsViewer.ui.views
+package net.lightglitch.carStatsViewer.ui.views
 
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.View
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
 import java.util.*
 import kotlin.math.roundToInt
 

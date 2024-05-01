@@ -1,13 +1,13 @@
-package com.ixam97.carStatsViewer.utils
+package net.lightglitch.carStatsViewer.utils
 
-import com.ixam97.carStatsViewer.database.tripData.ChargingPoint
-import com.ixam97.carStatsViewer.database.tripData.DrivingPoint
-import com.ixam97.carStatsViewer.database.tripData.DrivingSession
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotLineMarkerType
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotMarkerType
-import com.ixam97.carStatsViewer.ui.plot.objects.PlotLineItem
-import com.ixam97.carStatsViewer.ui.plot.objects.PlotMarker
-import com.ixam97.carStatsViewer.ui.plot.objects.PlotMarkers
+import net.lightglitch.carStatsViewer.database.tripData.ChargingPoint
+import net.lightglitch.carStatsViewer.database.tripData.DrivingPoint
+import net.lightglitch.carStatsViewer.database.tripData.DrivingSession
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotLineMarkerType
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotMarkerType
+import net.lightglitch.carStatsViewer.ui.plot.objects.PlotLineItem
+import net.lightglitch.carStatsViewer.ui.plot.objects.PlotMarker
+import net.lightglitch.carStatsViewer.ui.plot.objects.PlotMarkers
 
 object DataConverters {
 

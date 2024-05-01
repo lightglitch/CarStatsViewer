@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.liveDataApi.http
+package net.lightglitch.carStatsViewer.liveDataApi.http
 
 import android.text.Editable
 import android.text.TextWatcher

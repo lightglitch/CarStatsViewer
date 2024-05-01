@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.activities
+package net.lightglitch.carStatsViewer.ui.activities
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -14,16 +14,16 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.GsonBuilder
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.appPreferences.AppPreferences
-import com.ixam97.carStatsViewer.database.log.LogEntry
-import com.ixam97.carStatsViewer.database.tripData.TripType
-import com.ixam97.carStatsViewer.mailSender.MailSender
-import com.ixam97.carStatsViewer.adapters.LogAdapter
-import com.ixam97.carStatsViewer.ui.views.MultiSelectWidget
-import com.ixam97.carStatsViewer.ui.views.SnackbarWidget
-import com.ixam97.carStatsViewer.utils.*
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.appPreferences.AppPreferences
+import net.lightglitch.carStatsViewer.database.log.LogEntry
+import net.lightglitch.carStatsViewer.database.tripData.TripType
+import net.lightglitch.carStatsViewer.mailSender.MailSender
+import net.lightglitch.carStatsViewer.adapters.LogAdapter
+import net.lightglitch.carStatsViewer.ui.views.MultiSelectWidget
+import net.lightglitch.carStatsViewer.ui.views.SnackbarWidget
+import net.lightglitch.carStatsViewer.utils.*
 import kotlinx.android.synthetic.main.activity_debug.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.collectLatest

@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.carPropertiesClient
+package net.lightglitch.carStatsViewer.carPropertiesClient
 
 import android.car.VehiclePropertyIds
 import android.car.hardware.property.CarPropertyManager

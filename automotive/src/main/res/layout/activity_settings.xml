@@ -58,7 +58,7 @@
                 style="@style/menu_divider_style"
                 android:background="?android:attr/listDivider" />
 
-            <com.ixam97.carStatsViewer.ui.views.FixedSwitchWidget
+            <net.lightglitch.carStatsViewer.ui.views.FixedSwitchWidget
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:id="@+id/settings_switch_notifications"
@@ -69,7 +69,7 @@
                 style="@style/menu_divider_style"
                 android:background="?android:attr/listDivider" />
 
-            <com.ixam97.carStatsViewer.ui.views.FixedSwitchWidget
+            <net.lightglitch.carStatsViewer.ui.views.FixedSwitchWidget
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:visibility="gone"
@@ -80,7 +80,7 @@
                 style="@style/menu_divider_style"
                 android:background="?android:attr/listDivider" />
 
-            <com.ixam97.carStatsViewer.ui.views.FixedSwitchWidget
+            <net.lightglitch.carStatsViewer.ui.views.FixedSwitchWidget
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:id="@+id/settings_switch_consumption_unit"
@@ -90,7 +90,7 @@
                 style="@style/menu_divider_style"
                 android:background="?android:attr/listDivider" />
 
-            <com.ixam97.carStatsViewer.ui.views.FixedSwitchWidget
+            <net.lightglitch.carStatsViewer.ui.views.FixedSwitchWidget
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:id="@+id/settings_switch_use_location"
@@ -100,7 +100,7 @@
                 style="@style/menu_divider_style"
                 android:background="?android:attr/listDivider" />
 
-            <com.ixam97.carStatsViewer.ui.views.FixedSwitchWidget
+            <net.lightglitch.carStatsViewer.ui.views.FixedSwitchWidget
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:id="@+id/settings_switch_autostart"
@@ -110,7 +110,7 @@
                 style="@style/menu_divider_style"
                 android:background="?android:attr/listDivider" />
 
-            <com.ixam97.carStatsViewer.ui.views.FixedSwitchWidget
+            <net.lightglitch.carStatsViewer.ui.views.FixedSwitchWidget
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:id="@+id/settings_switch_phone_reminder"
@@ -150,28 +150,28 @@
                 style="@style/menu_divider_style"
                 android:background="?android:attr/listDivider" />
 
-            <com.ixam97.carStatsViewer.ui.views.MenuRowWidget
+            <net.lightglitch.carStatsViewer.ui.views.MenuRowWidget
                 android:id="@+id/settings_main_view_widget"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:topText="@string/settings_main_view"
                 app:startDrawable="@drawable/ic_diagram"/>
 
-            <com.ixam97.carStatsViewer.ui.views.MenuRowWidget
+            <net.lightglitch.carStatsViewer.ui.views.MenuRowWidget
                 android:id="@+id/settings_vehicle_widget"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:topText="@string/vehicle_title"
                 app:startDrawable="@drawable/ic_car"/>
 
-            <com.ixam97.carStatsViewer.ui.views.MenuRowWidget
+            <net.lightglitch.carStatsViewer.ui.views.MenuRowWidget
                 android:id="@+id/settings_apis_widget"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:topText="@string/settings_apis_title"
                 app:startDrawable="@drawable/ic_api"/>
 
-            <com.ixam97.carStatsViewer.ui.views.MenuRowWidget
+            <net.lightglitch.carStatsViewer.ui.views.MenuRowWidget
                 android:id="@+id/settings_about_widget"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

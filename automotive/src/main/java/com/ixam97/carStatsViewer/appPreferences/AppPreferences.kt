@@ -1,13 +1,13 @@
-package com.ixam97.carStatsViewer.appPreferences
+package net.lightglitch.carStatsViewer.appPreferences
 
 import android.content.Context
 import android.content.SharedPreferences
 import com.google.gson.ExclusionStrategy
 import com.google.gson.FieldAttributes
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.utils.DistanceUnitEnum
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotDimensionX
-import com.ixam97.carStatsViewer.utils.Exclude
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.utils.DistanceUnitEnum
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotDimensionX
+import net.lightglitch.carStatsViewer.utils.Exclude
 
 class AppPreferences(
     val context: Context

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ixam97.carStatsViewer">
+    package="net.lightglitch.carStatsViewer">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -43,7 +43,7 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.ixam97.carStatsViewer.RestartAction" />
+                <action android:name="net.lightglitch.carStatsViewer.RestartAction" />
             </intent-filter>
         </receiver>
 

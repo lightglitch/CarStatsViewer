@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.plot.graphics
+package net.lightglitch.carStatsViewer.ui.plot.graphics
 
 import android.graphics.Color
 import android.graphics.Paint

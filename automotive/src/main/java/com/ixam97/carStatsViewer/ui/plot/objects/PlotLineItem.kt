@@ -1,9 +1,9 @@
-package com.ixam97.carStatsViewer.ui.plot.objects
+package net.lightglitch.carStatsViewer.ui.plot.objects
 
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotDimensionX
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotDimensionY
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotLineMarkerType
-import com.ixam97.carStatsViewer.utils.Exclude
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotDimensionX
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotDimensionY
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotLineMarkerType
+import net.lightglitch.carStatsViewer.utils.Exclude
 import kotlin.math.roundToInt
 
 data class PlotLineItem (

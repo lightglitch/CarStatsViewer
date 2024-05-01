@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.locationClient
+package net.lightglitch.carStatsViewer.locationClient
 
 import android.content.Context
 import android.location.Location

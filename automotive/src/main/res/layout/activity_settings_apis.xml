@@ -40,7 +40,7 @@
             android:layout_marginVertical="10dp"
             android:orientation="vertical">
 
-            <com.ixam97.carStatsViewer.ui.views.MultiSelectWidget
+            <net.lightglitch.carStatsViewer.ui.views.MultiSelectWidget
                 android:id="@+id/settings_apis_connection_selector"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
                 style="@style/menu_divider_style"
                 android:background="?android:attr/listDivider" />
 
-            <com.ixam97.carStatsViewer.ui.views.ApiRowWidget
+            <net.lightglitch.carStatsViewer.ui.views.ApiRowWidget
                 android:id="@+id/settings_apis_abrp_row"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                 app:icon="@mipmap/ic_abrp"
                 />
 
-            <com.ixam97.carStatsViewer.ui.views.ApiRowWidget
+            <net.lightglitch.carStatsViewer.ui.views.ApiRowWidget
                 android:id="@+id/settings_apis_http_row"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
@@ -68,7 +68,7 @@
                 app:icon="@drawable/ic_webhook"
                 />
 
-            <com.ixam97.carStatsViewer.ui.views.ApiRowWidget
+            <net.lightglitch.carStatsViewer.ui.views.ApiRowWidget
                 android:id="@+id/settings_apis_smtp_row"
                 android:orientation="vertical"
                 android:layout_width="match_parent"

@@ -1,14 +1,14 @@
-package com.ixam97.carStatsViewer.ui.activities
+package net.lightglitch.carStatsViewer.ui.activities
 
 import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.FragmentActivity
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.utils.VehicleDefinitions
-import com.ixam97.carStatsViewer.utils.applyTypeface
-import com.ixam97.carStatsViewer.utils.setContentViewAndTheme
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.utils.VehicleDefinitions
+import net.lightglitch.carStatsViewer.utils.applyTypeface
+import net.lightglitch.carStatsViewer.utils.setContentViewAndTheme
 import kotlinx.android.synthetic.main.activity_settings_vehicle.*
 import kotlinx.coroutines.*
 

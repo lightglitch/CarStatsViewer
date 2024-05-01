@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.mailSender
+package net.lightglitch.carStatsViewer.mailSender
 
 import java.security.AccessController
 import java.security.PrivilegedAction

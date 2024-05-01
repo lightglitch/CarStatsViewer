@@ -1,12 +1,12 @@
-package com.ixam97.carStatsViewer.liveDataApi.abrpLiveData
+package net.lightglitch.carStatsViewer.liveDataApi.abrpLiveData
 
 /**
  * This file extends the AppPreferences to contain keys used by the API implementation. The rest of
  * the app does not need to see them.
  */
 
-import com.ixam97.carStatsViewer.appPreferences.AppPreference
-import com.ixam97.carStatsViewer.appPreferences.AppPreferences
+import net.lightglitch.carStatsViewer.appPreferences.AppPreference
+import net.lightglitch.carStatsViewer.appPreferences.AppPreferences
 
 val AppPreferences.AbrpGenericToken: AppPreference<String>
     get() = AppPreference<String>("preference_abrp_generic_token", "", sharedPref)

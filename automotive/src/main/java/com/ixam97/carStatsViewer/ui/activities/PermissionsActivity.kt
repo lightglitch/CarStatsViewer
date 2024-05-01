@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.ui.activities
+package net.lightglitch.carStatsViewer.ui.activities
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -6,11 +6,11 @@ import android.car.Car
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
-import com.ixam97.carStatsViewer.BuildConfig
-import com.ixam97.carStatsViewer.CarStatsViewer
-import com.ixam97.carStatsViewer.utils.InAppLogger
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.utils.setContentViewAndTheme
+import net.lightglitch.carStatsViewer.BuildConfig
+import net.lightglitch.carStatsViewer.CarStatsViewer
+import net.lightglitch.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.utils.setContentViewAndTheme
 import kotlinx.android.synthetic.main.activity_permissions.permissions_version
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

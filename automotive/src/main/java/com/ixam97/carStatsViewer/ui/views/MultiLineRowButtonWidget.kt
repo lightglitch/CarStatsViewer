@@ -1,11 +1,11 @@
-package com.ixam97.carStatsViewer.ui.views
+package net.lightglitch.carStatsViewer.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.ixam97.carStatsViewer.R
+import net.lightglitch.carStatsViewer.R
 
 class MultiLineRowButtonWidget @JvmOverloads constructor(
     context: Context,

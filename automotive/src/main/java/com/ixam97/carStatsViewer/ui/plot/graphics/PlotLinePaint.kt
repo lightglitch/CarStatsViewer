@@ -1,6 +1,6 @@
-package com.ixam97.carStatsViewer.ui.plot.graphics
+package net.lightglitch.carStatsViewer.ui.plot.graphics
 
-import com.ixam97.carStatsViewer.ui.plot.enums.PlotDimensionY
+import net.lightglitch.carStatsViewer.ui.plot.enums.PlotDimensionY
 
 class PlotLinePaint(
     private val xAxis : PlotPaint,

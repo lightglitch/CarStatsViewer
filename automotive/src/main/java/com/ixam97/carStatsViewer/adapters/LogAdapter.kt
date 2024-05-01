@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.adapters
+package net.lightglitch.carStatsViewer.adapters
 
 import android.graphics.Color
 import android.util.Log
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.ixam97.carStatsViewer.R
-import com.ixam97.carStatsViewer.database.log.LogEntry
-import com.ixam97.carStatsViewer.utils.InAppLogger
+import net.lightglitch.carStatsViewer.R
+import net.lightglitch.carStatsViewer.database.log.LogEntry
+import net.lightglitch.carStatsViewer.utils.InAppLogger
 import kotlinx.android.synthetic.main.recyclerview_log_row.view.*
 import java.text.SimpleDateFormat
 

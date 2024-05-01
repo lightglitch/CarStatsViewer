@@ -1,4 +1,4 @@
-package com.ixam97.carStatsViewer.database.tripData
+package net.lightglitch.carStatsViewer.database.tripData
 
 import androidx.room.*
 

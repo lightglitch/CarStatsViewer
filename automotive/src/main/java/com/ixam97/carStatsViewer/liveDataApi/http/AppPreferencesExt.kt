@@ -1,12 +1,12 @@
-package com.ixam97.carStatsViewer.liveDataApi.http
+package net.lightglitch.carStatsViewer.liveDataApi.http
 
 /**
  * This file extends the AppPreferences to contain keys used by the API implementation. The rest of
  * the app does not need to see them.
  */
 
-import com.ixam97.carStatsViewer.appPreferences.AppPreference
-import com.ixam97.carStatsViewer.appPreferences.AppPreferences
+import net.lightglitch.carStatsViewer.appPreferences.AppPreference
+import net.lightglitch.carStatsViewer.appPreferences.AppPreferences
 
 val AppPreferences.HTTPLiveDataURL: AppPreference<String>
     get() = AppPreference<String>("preference_http_live_data_url", "", sharedPref)
